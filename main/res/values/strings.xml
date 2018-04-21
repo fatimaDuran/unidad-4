@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Orders</string>
+    <string name="type_product_name">Type product name</string>
+    <string name="type_product">Type product name</string>
+    <string name="type_price_of_product">Type price of product</string>
+    <string name="type_stock_product">Type stock product</string>
+    <string name="save_product">Save product</string>
+    <string name="emp_no">Emp No</string>
+    <string name="to_date">To Date</string>
+    <string name="save">Save</string>
+    <string name="from_date">From Date</string>
+    <string name="product_price">product_price</string>
+    <string name="product_stock">product_stock</string>
+    <string name="name">Name</string>
+    <string name="lastname">Lastname</string>
+    <string name="phone">Phone number</string>
+    <string name="description">Type the description</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="title_order_list">Orders</string>
+    <string name="title_order_detail">Order Detail</string>
+    <string name="date">Date</string>
+    <string name="customer">Customer</string>
+    <string name="method_payment">Method Payment</string>
+    <string name="quantity">Quantity</string>
+    <string name="price">Price</string>
+
+</resources>

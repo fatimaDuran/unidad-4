@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/crv_customer"
+    android:layout_margin="@dimen/card_margin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+     <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txv_firstname"
+        android:textSize="15pt"
+        android:text="@string/name"
+        />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_delete"
+            android:layout_below="@id/btn_edit"
+            android:layout_alignParentEnd="true"
+            android:src="@android:drawable/ic_menu_delete"
+            android:contentDescription="@string/delete"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txv_lastname"
+            android:layout_below="@id/txv_firstname"
+            android:text="@string/lastname"
+            android:textSize="10pt"
+
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txv_phone"
+        android:layout_below="@id/txv_lastname"
+        android:text="@string/phone"
+        android:textSize="10pt"
+      />
+
+        <ImageButton
+            android:id="@+id/btn_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:src="@android:drawable/ic_menu_edit"
+            android:contentDescription="@string/edit"/>
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
